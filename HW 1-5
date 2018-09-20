@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner line=new Scanner(System.in);
+        float v1,v2,v3;
+
+        System.out.println(" 請輸入 三角形三邊(由小至大) ");
+        v1 = line.nextFloat( );
+        v2 = line.nextFloat( );
+        v3 = line.nextFloat( );
+
+        if ( v3>=v2 && v2>=v1 ){
+
+            if( v2+v1>v3 ) {
+             System.out.println( "True");
+
+            } else {System.out.println( "False"); }
+
+        }else { System.out.println( "False"); }
+
+
+
+
+
+
+
+
+
+        // 條件 a<=b<=c; a+b>c; a+c>b; c+b>a;
+
+
+
+	// write your code here
+    }
+}
